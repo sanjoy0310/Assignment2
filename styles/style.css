@@ -52,6 +52,9 @@ nav ul li a{
     padding: 8px 20px 8px 20px;
     
 }
+.nav-three{
+    display: none;
+}
 /*banner*/
 .banner{
     max-width: 1440px;
@@ -77,6 +80,7 @@ nav ul li a{
     font-size: 1rem;
     color:rgba(255, 255, 255, 0.5) ;
 }
+
 .btn{
     display: flex;
   justify-content: space-between;
@@ -143,7 +147,19 @@ left: 70%;
 @media screen and (max-width:576px) {
    .nav-two{
     display: none;
+    
+    
    }
+   .nav-three{
+    display: flex;   
+    
+   }
+   nav{
+    margin: 0px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
    
     .banner{
        flex-direction: column;
