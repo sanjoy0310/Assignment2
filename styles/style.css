@@ -1,0 +1,154 @@
+
+.inter-main {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+body{
+   
+    background-color: #111111;
+}
+/*navber*/
+.nav-titel{
+    color: rgba(230, 83, 60, 1);
+    font-size: 2.25rem;
+    font-style: italic;
+    
+}
+nav{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+ nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    
+
+}
+    
+nav ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color:rgb(255, 255, 255) ;
+    font-weight: 600;
+    margin : 42px;
+}
+#home{
+    box-sizing: border-box;
+    background-color: rgba(230, 83, 60, 1);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 8px 20px 8px 20px;
+    
+}
+/*banner*/
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.banner-text{
+    width: 400px;
+    height: 440px;
+}
+.banner-title{
+    font-size:4.5rem;
+    color: rgba(255, 255, 255, 1);
+}
+.span{
+    font-family: 'Miama', sans-serif;
+                                                
+}
+.banner-description{
+    font-size: 1rem;
+    color:rgba(255, 255, 255, 0.5) ;
+}
+.btn{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+   
+    
+}
+.btn-primary, .btn-two{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 40px 16px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+   
+    border-radius:42px;
+    
+}
+.btn-two{
+    border-color: white;
+}
+.btn-primary{
+    background-color: rgba(230, 83, 60, 1);
+    
+}
+.video-info{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: justify;
+    color: white;
+    position: absolute;
+
+}
+.video-info p {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0  10px;
+    
+
+}
+
+.video-info span{
+    font-size: 0.6rem;
+    margin: 0  10px;
+}
+.banner-img{
+    
+position: relative;
+}
+
+.position-two{
+   
+   top: 75%;
+   left: -15%;
+    
+}
+.position-one{  
+top:25%;
+left: 70%;
+} 
+
+@media screen and (max-width:576px) {
+   .nav-two{
+    display: none;
+   }
+   
+    .banner{
+       flex-direction: column;
+    }
+    .banner-text{
+        margin-bottom: 30px;
+    }
+}
