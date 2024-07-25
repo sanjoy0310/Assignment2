@@ -65,12 +65,13 @@ nav ul li a{
 
 }
 .banner-text{
-    width: 400px;
+    width: 500px;
     height: 440px;
 }
 .banner-title{
     font-size:4.5rem;
     color: rgba(255, 255, 255, 1);
+    margin-bottom: 28px;
 }
 .span{
     font-family: 'Miama', sans-serif;
@@ -79,12 +80,11 @@ nav ul li a{
 .banner-description{
     font-size: 1rem;
     color:rgba(255, 255, 255, 0.5) ;
+    margin-bottom: 20px;
 }
 
 .btn{
     display: flex;
-  justify-content: space-between;
-  align-items: center;
    
     
 }
@@ -95,15 +95,16 @@ nav ul li a{
     font-weight: bold;
     padding: 16px 40px 16px 40px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-   
     border-radius:42px;
     
 }
 .btn-two{
     border-color: white;
+    margin-left: 20px;
 }
 .btn-primary{
     background-color: rgba(230, 83, 60, 1);
+    
     
 }
 .video-info{
@@ -131,10 +132,14 @@ nav ul li a{
 .banner-img{
     
 position: relative;
-}
 
+}
+.video-img{
+    display: none;
+}
 .position-two{
-   
+   display: flex;
+   align-items: center;
    top: 75%;
    left: -15%;
     
@@ -143,28 +148,114 @@ position: relative;
 top:25%;
 left: 70%;
 } 
+/*havit-section*/
+
+.all-titel{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-top:30px ;
+}
+.sub-titel{
+    font-size: 1rem ;
+    color:rgba(255, 255, 255, 0.5) ;
+    text-align: center;
+    margin-top:14px ;
+    margin-bottom: 58px;
+}
+.havit-container{
+    max-width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 40px;
+    
+}
+
+
+.havit-img img{
+    
+            border-radius: 50%;
+           
+}
+.havit-titel{
+    color: white;
+    font-size:1rem ;
+    text-align: center;
+
+}
+.havit-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    text-align: center;
+}
 
 @media screen and (max-width:576px) {
-   .nav-two{
+    nav{
+        margin: none;
+        max-width: none;
+        display: flex;
+      justify-content: space-between;
+    }
+      
+    .nav-two{
     display: none;
     
     
    }
    .nav-three{
-    display: flex;   
+    display: flex;  
     
    }
-   nav{
-    margin: 0px 35px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-   
+    
     .banner{
        flex-direction: column;
+    
     }
     .banner-text{
+       width: auto;
+       height: auto;
+       
         margin-bottom: 30px;
     }
+    .banner-title{
+        font-size: 4rem;
+    }
+    .banner-img{
+    
+        position: relative;
+        width: 270px;
+        }
+   .video-imgg{
+    display: none;
+   }
+   .video-img{
+    display: flex;
+   }  
+        .position-two{
+           
+           top: 55%;
+           left: -15%;
+            
+        }
+        .position-one{  
+        top:15%;
+        left: 70%;
+        } 
+
+
+ /*habit*/
+ .habit-titel{
+    font-size: 2rem;
+    
+ }
+.habit-p{
+    
+    text-align: center;
+}
+ .havit-container{
+   flex-direction: column;
+  
+}       
 }
