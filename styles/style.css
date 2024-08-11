@@ -363,6 +363,57 @@ button {
     margin: 5px 0 0;
     font-size: 14px;
 }
+/*footer*/
+footer{
+    
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.1) ;
+}
+.footer-container {
+   
+    display: flex;
+    justify-content:space-evenly; 
+    padding: 0 20px;
+    margin-top: 30px;
+   
+   
+    
+    
+}
+.footer-logo{
+    width: 376px;
+    text-align: left;
+    
+}
+.footer-links h3{
+    color: rgb(255, 255, 255); 
+    text-align: left;
+    font-size: 2rem;
+
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.footer-links ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    
+}
+.footer-bottom{
+   margin: auto;
+   max-width: 1130px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    
+    
+   
+}
+
 @media screen and (max-width:576px) {
     nav{
         margin: none;
@@ -435,7 +486,7 @@ button {
     flex-direction: column;
     
   margin: auto;
-  margin-left: 20px;
+  
   gap: 20px;
   padding: auto ;
     
@@ -475,12 +526,25 @@ button {
     
 }
 /*team*/
-.team-grid{
-   grid-template-columns: repeat(1,1fr);
-  margin-left:20px;
+.team-grid{ 
+    display: grid;
+   grid-template-columns: repeat(1, 1fr);
+ margin: auto;
+ 
 }
-.team-grid img{
-    width: 313px;
-height: 272px;
+.img-non{
+    display: none;
+}
+img{
+   width: 100%;
+   height: 100%;
+}
+/*footer*/
+.footer-container{
+    flex-direction: column;
+    
+}
+.footer-bottom{
+    width: 318px;
 }
 }
