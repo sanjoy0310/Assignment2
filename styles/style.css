@@ -309,8 +309,60 @@ button {
     border-radius:42px; 
     background-color:rgba(230, 83, 60, 1) ; 
 }
+/*team*/
+.team{
+    max-width: 1130px;
+    text-align: center;
+    margin:auto ;
+    
+   
+}
+.team-grid {
+    display: grid;
+    background-color:rgba(255, 255, 255, 0.1); 
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 18px;
+    padding: 20px;
+    gap: 20px;
+}
+.team-member {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.team-member img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    opacity: 1;
+    border-radius: 0 0 10px 10px;
+}
 
 
+
+.overlay h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.overlay p {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 5px 0 0;
+    font-size: 14px;
+}
 @media screen and (max-width:576px) {
     nav{
         margin: none;
@@ -383,6 +435,7 @@ button {
     flex-direction: column;
     
   margin: auto;
+  margin-left: 20px;
   gap: 20px;
   padding: auto ;
     
@@ -404,7 +457,9 @@ button {
 /*BMI*/
 .BMI{
     text-align: left;
+    
 }
+
 .bmi-container{
     flex-direction: column;
     
@@ -416,6 +471,16 @@ button {
   
 .bmi{
   width: fit-content;
+  
     
+}
+/*team*/
+.team-grid{
+   grid-template-columns: repeat(1,1fr);
+  margin-left:20px;
+}
+.team-grid img{
+    width: 313px;
+height: 272px;
 }
 }
