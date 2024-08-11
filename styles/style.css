@@ -237,6 +237,78 @@ left: 70%;
     border-radius: 18px;
    
 }
+/*BMI*/
+.BMI{
+    text-align: center;
+}
+.bmi{
+    background-color:rgba(34, 34, 34, 1);
+    
+}
+.bmi-container{
+  
+    display: flex;
+    justify-content:space-evenly;
+    
+   
+}
+.Chart, .calculate-bmi{
+    color: #fff;
+}
+.bmi-chart, .bmi-calculator {
+    background-color:rgba(34, 34, 34, 1);
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+.bmi-chart h2, .bmi-calculator h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+table { 
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid  #444;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    
+    
+}
+
+input, select, button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color:  rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.number5{
+  width:203%;
+}
+button {
+   
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 16px 40px 16px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius:42px; 
+    background-color:rgba(230, 83, 60, 1) ; 
+}
 
 
 @media screen and (max-width:576px) {
@@ -329,5 +401,21 @@ left: 70%;
 .exercise-btn{
  width: 100%;
 }
+/*BMI*/
+.BMI{
+    text-align: left;
+}
+.bmi-container{
+    flex-direction: column;
+    
    
+}
+.number5{
+    width: 205%;
+  } 
+  
+.bmi{
+  width: fit-content;
+    
+}
 }
