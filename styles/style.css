@@ -334,6 +334,7 @@ button {
 .team-member img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     display: block;
     border-radius: 10px;
 }
@@ -355,13 +356,13 @@ button {
 
 .overlay h3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 .overlay p {
     color: rgba(255, 255, 255, 0.5);
     margin: 5px 0 0;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 /*footer*/
 footer{
@@ -528,23 +529,33 @@ footer{
 /*team*/
 .team-grid{ 
     display: grid;
-   grid-template-columns: repeat(1, 1fr);
- margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+   grid-template-areas: "img-two-a"
+                        "img-two-c"
+                        "img-two-b"
+                        "img-two-d";
  
 }
 .img-non{
     display: none;
 }
-img{
-   width: 100%;
-   height: 100%;
+.team-grid img{
+    width: 370px;
+    height: 272px;
 }
 /*footer*/
 .footer-container{
     flex-direction: column;
     
 }
+.footer-logo{
+    width: 370px;
+    text-align: left;
+    
+}
 .footer-bottom{
-    width: 318px;
+    width: 320px;
+    margin: auto;
 }
 }
