@@ -559,7 +559,7 @@ footer{
    
 }
  .bmi-calculator{
-    width: 350px;
+   
     padding:5px;
    margin: auto;
  }
@@ -630,7 +630,7 @@ footer{
     
 }
 .footer-logo{
-    width: 350px;
+    width: auto;
     text-align: left;
     
 }
