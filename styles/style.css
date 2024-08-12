@@ -309,6 +309,47 @@ button {
     border-radius:42px; 
     background-color:rgba(230, 83, 60, 1) ; 
 }
+/*membership*/
+.membership{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: rgb(34, 34, 34);
+    border-radius: 16px;
+    margin: 30px 150px;
+    padding: 40px;
+}
+.membership-titel{
+    
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 14px;
+}
+.membership-container{
+     width: 400px; 
+     
+}
+.membership-sub-titel{
+    font-size: 0.8rem;
+    color:rgba(255, 255, 255, 0.5) ;
+    margin-bottom: 34px;
+}
+.membership-btn{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 40px 16px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius:42px; 
+    background-color:rgba(230, 83, 60, 1) ; 
+}
+.membership-img img{
+    width: 400px;
+    height: 350px;
+    border-radius: 18px;
+   
+}
 /*team*/
 .team{
     max-width: 1130px;
@@ -376,7 +417,7 @@ footer{
     justify-content:space-evenly; 
     padding: 0 20px;
     margin-top: 30px;
-   
+    
    
     
     
@@ -459,7 +500,7 @@ footer{
    }  
         .position-two{
            
-           top: 55%;
+           top: 40%;
            left: -2%;
             
         }
@@ -480,7 +521,7 @@ footer{
 }
  .havit-container{
    flex-direction: column;
-  
+   width: 338px;
 }
 /*exercise*/
 .exercise{
@@ -529,16 +570,46 @@ footer{
   
     
 }
+/*membership*/
+.membership{
+    flex-direction: column;
+    
+  margin: auto;
+  margin-top: 20px;
+  gap: 20px;
+  padding: auto ;
+    
+}
+.membership-container{
+    width: 287px;
+    height: auto;
+}
+.membership-titel{
+    font-size: 2rem;
+}
+.membership-img img{
+  width: 287px;
+  height: auto;
+}
+.membership-btn{
+ width: 100%;
+}
 /*team*/
 .team-grid{ 
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+   
     margin: auto;
-   grid-template-areas: "img-two-a"
-                        "img-two-c"
-                        "img-two-b"
-                        "img-two-d";
- 
+    position: relative;
+    
+}
+.img-two-b{
+  top:107.5%
+}
+.img-two-c{
+    bottom:107.5%;
+    
+    
 }
 .img-non{
     display: none;
