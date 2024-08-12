@@ -449,7 +449,7 @@ footer{
     .banner-img{
     
         position: relative;
-        width: 270px;
+        width: 350px;
         }
    .video-imgg{
     display: none;
@@ -460,12 +460,12 @@ footer{
         .position-two{
            
            top: 55%;
-           left: -15%;
+           left: -2%;
             
         }
         .position-one{  
         top:10%;
-        left:70%;
+        left:55%;
         } 
 
 
@@ -509,7 +509,7 @@ footer{
 /*BMI*/
 .BMI{
     text-align: left;
-    
+    width: auto;
 }
 
 .bmi-container{
@@ -517,12 +517,15 @@ footer{
     
    
 }
+ .bmi-calculator{
+    padding: 10px;
+ }
 .number5{
     width: 205%;
   } 
   
 .bmi{
-  width: fit-content;
+  width: auto;
   
     
 }
