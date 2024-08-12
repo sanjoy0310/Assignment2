@@ -559,10 +559,16 @@ footer{
    
 }
  .bmi-calculator{
+    width: 350px;
     padding:5px;
+   margin: auto;
  }
+.number1, .number2, .number3{
+   width: 89%;
+}
+
 .number5{
-    width: 205%;
+    width: 206%;
   } 
   
 .bmi{
